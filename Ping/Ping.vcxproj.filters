@@ -13,21 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{e30caec6-44d0-49a7-87e2-abaead500c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{c8844818-c22d-493b-be64-30b6668d452a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{23bcc081-4a0b-4a08-9455-a8337d5601eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main_game.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
     <ClCompile Include="main_menu.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\States</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game_state.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Core</Filter>
     </ClInclude>
     <ClInclude Include="main_menu.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="main_game.h">
+      <Filter>Header Files\States</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
