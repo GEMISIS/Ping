@@ -7,7 +7,7 @@ void main_menu::Initialize(sf::RenderWindow* window)
 	this->selected = 0;
 
 	this->font = new sf::Font();
-	this->font->loadFromFile("font.ttf");
+	this->font->loadFromFile("Graphics/font.ttf");
 
 	this->title = new sf::Text("Ping", *this->font, 256U);
 	this->title->setOrigin(this->title->getGlobalBounds().width / 2, this->title->getGlobalBounds().height / 2);
