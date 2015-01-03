@@ -19,6 +19,9 @@ private:
 	ball* ballObject;
 	Score* score1;
 	Score* score2;
+	sf::Text* pausedText;
 
 	sf::Font* font;
+
+	bool paused, enterKey;
 };

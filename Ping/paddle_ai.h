@@ -6,7 +6,7 @@
 class paddle_ai : public paddle
 {
 public:
-	paddle_ai(int playerNumber);
+	paddle_ai(int playerNumber, int difficulty);
 	void SetBall(ball* ballObject);
 	void Update();
 private:
