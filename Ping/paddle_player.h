@@ -1,8 +1,8 @@
 #pragma once
 
-#include "entity.h"
+#include "paddle.h"
 
-class paddle_player : public Entity
+class paddle_player : public paddle
 {
 public:
 	paddle_player(int playerNumber);

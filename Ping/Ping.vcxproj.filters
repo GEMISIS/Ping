@@ -48,6 +48,9 @@
     <ClCompile Include="score.cpp">
       <Filter>Source Files\Entities</Filter>
     </ClCompile>
+    <ClCompile Include="paddle_ai.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game_state.h">
@@ -69,6 +72,12 @@
       <Filter>Header Files\Entities</Filter>
     </ClInclude>
     <ClInclude Include="score.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle_ai.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle.h">
       <Filter>Header Files\Entities</Filter>
     </ClInclude>
   </ItemGroup>
