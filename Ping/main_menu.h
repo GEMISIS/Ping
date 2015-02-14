@@ -2,6 +2,9 @@
 
 #include "game_state.h"
 
+#define SCALE_SPEED 0.01f
+#define MAX_SCALE 0.10
+
 class main_menu : public tiny_state
 {
 public:
@@ -16,6 +19,12 @@ private:
 	sf::Text* quit;
 
 	int selected;
+	int mode;
 
-	bool upKey, downKey;
+	float scale;
+	float scaleInc;
+
+	bool upKey, downKey, leftKey, rightKey;
+
+	void UpdateMode(sf::RenderWindow* window);
 };
